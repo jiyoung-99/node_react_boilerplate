@@ -21,4 +21,8 @@ router.post('/register', (req, res) => {
   });
 });
 
+router.get('/api/hello', (req, res)=> {
+  res.send('안녕하세요');
+})
+
 module.exports = router;
