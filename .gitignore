@@ -1,0 +1,5 @@
+node_modules
+.idea/**
+
+# private files
+server/config/dev.js
