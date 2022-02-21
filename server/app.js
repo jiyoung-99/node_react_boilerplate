@@ -4,8 +4,8 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require('mongoose');
-const config = require('./config/key');
 const bodyParser = require('body-parser');
+const config = require('./config/key');
 
 const indexRouter = require('./routes/index');
 
