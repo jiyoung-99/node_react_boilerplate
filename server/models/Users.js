@@ -5,30 +5,30 @@ const userSchema = mongoose.Schema({
     type: String,
     maxLength: 50,
   },
-  email: {
-    type: String,
-    trim: true,
-    unique: 1,
-  },
+  // email: {
+  //   type: String,
+  //   trim: true,
+  //   unique: 1,
+  // },
   password: {
     type: String,
     minlength: 5,
   },
-  lastname: {
-    type: String,
-    minlength: 50,
-  },
-  role: {
-    type: Number,
-    default: 0,
-  },
-  image: String,
-  token: {
-    type: String,
-  },
-  tokenExp: {
-    type: Number,
-  },
+  // lastname: {
+  //   type: String,
+  //   minlength: 50,
+  // },
+  // role: {
+  //   type: Number,
+  //   default: 0,
+  // },
+  // image: String,
+  // token: {
+  //   type: String,
+  // },
+  // tokenExp: {
+  //   type: Number,
+  // },
 });
 
 const User = mongoose.model('User', userSchema);
